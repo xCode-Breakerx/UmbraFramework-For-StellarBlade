@@ -53,10 +53,21 @@ To setup visual studio for unreal engine, you can [visit this website](https://d
 | Save system                               | ✔️           |
 | Async mod scanning                        | ✔️           |
 | Custom mod scan ranges                    | ✔️           |
+| Custom integrated UI                      | ✔️           |
 
-## A major warning
+# A major warning
+
 If, you the developer, wish to modify, extend or write your own version of this framework, Please be aware of the fallowing:
 
 > [!CAUTION]
-> This framework (as is) relies on **Blueprint Structures**. Said structures are <span style="color:red">not to be modifed, renamed, or moved in any shape or form</span>. This includes member names, member descriptions, member types, member count, member metadata, etc... Blueprint sutructures are known to be quite the hassle when attempting to modify it. Not only you risk to <span style="color:red">corrupt your project or generate countless amount of errors + crashes</span>, but you will also break all mods that use the framework.
-> For this reason, it is **HIGHLY** recommended that new features data are stored on NEW structures rather than modifying the existing ones.
+> This framework (as is) relies on **Blueprint Structures**. Said structures are <span style="color:red">not to be modifed, renamed, or moved in any shape or form</span>. This includes member names, member descriptions, member types, member count, member metadata, etc... Blueprint sutructures are known to be quite the hassle when attempting to modify, rename or move them. Not only you risk to <span style="color:red">corrupt your project or generate countless amount of errors + crashes</span>, but you will also break all mods that use the framework.
+>
+> For this reason, it is **HIGHLY** recommended that the data of new features are stored on NEW structures rather than modifying the existing ones.
+>
+> This will also help with the compatibility of mods using this framework across different versions
+
+> [!TIP]
+> It is highly recommended to use extensive and exclusive use of **soft references** when available.
+> This increases the compatibility of mods across different framework versions and allows for modular asset loading
+> Using hard references may increase memory usage and can lead to errors and crashes at runtime if assets are missing or fail to load 
+
