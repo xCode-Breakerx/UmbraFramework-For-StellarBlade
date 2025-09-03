@@ -9,7 +9,7 @@ The framework template includes some Unreal Editor tutorials that will explain s
 
 This framework is made public to serve as knowledge base and a base for other users to extend and improve upon this framework.
 
-> [!INFO]
+> [!NOTE]
 > By using this framework, it is assumed that you have minimal knowledge on: Unreal Engine, C++, Blueprints, modding with Unreal Engine, Programming in general, Blueprint data types and communication
 
 > [!NOTE]
@@ -57,6 +57,5 @@ To setup visual studio for unreal engine, you can [visit this website](https://d
 ## A major warning
 If, you the developer, wish to modify, extend or write your own version of this framework, Please be aware of the fallowing:
 
-> [!WARNING]
-> This framework (as is) relies on **Blueprint Structures**. Said structures are <span style="color:red">not to be modifed, renamed, or moved in any shape or form</span>. This includes member names, member descriptions, member types, member count, member metadata, etc... Blueprint sutructures are known to be quite the hassle when attempting to modify it. Not only you risk to <span style="color:red">corrupt your project or generate countless amount of errors + crashes</span>, but you will also break all mods that use the framework.
-> For this reason, it is **HIGHLY** recommended that new features data are stored on NEW structures rather than modifying the existing ones.
+This framework (as is) relies on **Blueprint Structures**. Said structures are <span style="color:red">not to be modifed, renamed, or moved in any shape or form</span>. This includes member names, member descriptions, member types, member count, member metadata, etc... Blueprint sutructures are known to be quite the hassle when attempting to modify it. Not only you risk to <span style="color:red">corrupt your project or generate countless amount of errors + crashes</span>, but you will also break all mods that use the framework.
+For this reason, it is **HIGHLY** recommended that new features data are stored on NEW structures rather than modifying the existing ones.
