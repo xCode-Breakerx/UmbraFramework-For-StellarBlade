@@ -57,5 +57,6 @@ To setup visual studio for unreal engine, you can [visit this website](https://d
 ## A major warning
 If, you the developer, wish to modify, extend or write your own version of this framework, Please be aware of the fallowing:
 
-This framework (as is) relies on **Blueprint Structures**. Said structures are <span style="color:red">not to be modifed, renamed, or moved in any shape or form</span>. This includes member names, member descriptions, member types, member count, member metadata, etc... Blueprint sutructures are known to be quite the hassle when attempting to modify it. Not only you risk to <span style="color:red">corrupt your project or generate countless amount of errors + crashes</span>, but you will also break all mods that use the framework.
-For this reason, it is **HIGHLY** recommended that new features data are stored on NEW structures rather than modifying the existing ones.
+> [!CAUTION]
+> This framework (as is) relies on **Blueprint Structures**. Said structures are <span style="color:red">not to be modifed, renamed, or moved in any shape or form</span>. This includes member names, member descriptions, member types, member count, member metadata, etc... Blueprint sutructures are known to be quite the hassle when attempting to modify it. Not only you risk to <span style="color:red">corrupt your project or generate countless amount of errors + crashes</span>, but you will also break all mods that use the framework.
+> For this reason, it is **HIGHLY** recommended that new features data are stored on NEW structures rather than modifying the existing ones.
