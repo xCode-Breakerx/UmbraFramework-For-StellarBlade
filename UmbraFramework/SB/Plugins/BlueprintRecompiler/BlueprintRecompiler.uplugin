@@ -1,0 +1,23 @@
+﻿{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "BlueprintRecompiler",
+	"Description": "Force recompile all blueprints",
+	"Category": "Other",
+	"CreatedBy": "Code Breaker Umbra",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "BlueprintRecompiler",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	]
+}
