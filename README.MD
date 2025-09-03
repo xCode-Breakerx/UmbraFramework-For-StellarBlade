@@ -37,7 +37,7 @@ To setup visual studio for unreal engine, you can [visit this website](https://d
 
 ### UmbraFrameworkProjectTemplate
 
-- The folder `UmbraFrameworkProjectTemplate` contains the Unreal Engine project tempalte for using the UmbraFramework, mainly intended for modders who want make mods using the UmbraFramework
+- The folder `UmbraFrameworkProjectTemplate` contains the Unreal Engine project template for using the UmbraFramework, mainly intended for modders who want make mods using the UmbraFramework
 - The project contains a working version of `kawaii physics` (working in game and preview in editor) with an example outfit that makes use of it
 
 ## Features
